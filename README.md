@@ -163,7 +163,8 @@ Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. 
 
 ### 7. Menu Keluar
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/9d6ee9fe-1cb8-47f8-9b46-7193c482fcac" />
+<img width="319" height="137" alt="image" src="https://github.com/user-attachments/assets/b88439d0-8057-4e66-b1dc-340de0bdabb6" />
+
 
 Ketika pengguna ingin keluar dari sistem.
 
@@ -186,10 +187,11 @@ private String idHasil;
 private String idPasien;
 private String hasil;
 private String status;
+```
 
 ### 2. Encapsulation
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f693fc2d-51fa-4eca-89e4-98f1e28c04ee" />
+<img width="400" height="117" alt="image" src="https://github.com/user-attachments/assets/8af380df-64c1-491c-9c07-a45ac5b80bb6" />
 
 Gambar di atas menunjukkan penerapan encapsulation pada class `HasilPemeriksaan`. Atribut data tidak diakses secara langsung, tetapi melalui getter dan setter.
 
