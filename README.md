@@ -1,7 +1,9 @@
 # Minpro-1-PBO-SistemManajemenLaboratoriumKesehatan
 
 Nama: Hanif Amelia Putri
+
 Kelas: B
+
 NIM: 2509116075
 
 ## 1. Deskripsi Singkat Program
@@ -97,3 +99,71 @@ Digunakan untuk menghapus data pemeriksaan berdasarkan ID.
 ### 6. Keluar
 
 Digunakan untuk menghentikan program.
+
+## 6. Demo Program
+
+### 1. Menu Utama
+
+## 6. Demo Program
+
+### 1. Menu Utama
+
+<img width="773" height="359" alt="WhatsApp Image 2026-09-10 at 02 30 56" src="https://github.com/user-attachments/assets/44affbf6-3021-46aa-830c-c4b9665f4176" />
+
+
+Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. Pengguna dapat memilih menu tambah, lihat, cari, ubah, hapus, atau keluar dengan memasukkan nomor pilihan.
+
+### 2. Tambah Pemeriksaan
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/94333044-0e40-4648-afcb-f42faefbcf97" />
+
+
+Pada menu ini, pengguna memasukkan nama dan biaya pemeriksaan. Setelah data berhasil disimpan, program membuat ID pemeriksaan secara otomatis, seperti PM1.
+
+### 3. Lihat Pemeriksaan
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/a5b7bf0c-bbb0-4f2b-a91d-e8216ddb603f" />
+
+
+Menu ini menampilkan semua data pemeriksaan yang tersimpan di dalam ArrayList.
+
+### 4. Cari Pemeriksaan
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/21075863-03fd-49e7-b1ca-a824e754993b" />
+
+
+Pengguna memasukkan ID pemeriksaan untuk mencari data tertentu.
+
+### 5. Ubah Pemeriksaan
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/20a7ba82-03da-4bb5-abf8-298165eaf90f" />
+
+
+Menu ini digunakan untuk mengubah nama dan biaya pemeriksaan berdasarkan ID.
+
+Setelah data diubah kita bisa lihat perubahannya dengan pilih menu 2.
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/b1409d6a-1dea-4d3a-914c-0343482a84f5" />
+
+
+### 6. Hapus Pemeriksaan
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/48574045-1aef-42d9-b9db-0d3a1806ed58" />
+
+
+Menu ini digunakan untuk menghapus data pemeriksaan berdasarkan ID.
+
+Jika kita mau melihat apakah data sudah berhasil di hapus bisa dilihat kembali pada menu 2.
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/5a735e1b-cb6b-4337-b05e-cf9c2b551d2e" />
+
+
+Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. Pengguna dapat memilih menu tambah, lihat, cari, ubah, hapus, atau keluar dengan memasukkan nomor pilihan.
+
+
+### 7. Menu Keluar
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/9d6ee9fe-1cb8-47f8-9b46-7193c482fcac" />
+
+Ketika pengguna ingin keluar dari sistem.
+
