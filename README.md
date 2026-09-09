@@ -163,7 +163,7 @@ Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. 
 
 ### 7. Menu Keluar
 
-<img width="319" height="137" alt="image" src="https://github.com/user-attachments/assets/b88439d0-8057-4e66-b1dc-340de0bdabb6" />
+<img width="724" height="400" alt="image" src="https://github.com/user-attachments/assets/bf978492-d8f5-4d7a-9184-006507f11671" />
 
 
 Ketika pengguna ingin keluar dari sistem.
@@ -173,7 +173,7 @@ Ketika pengguna ingin keluar dari sistem.
 ### 1. Access Modifier
 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b4e60b7-87a3-4f72-85e9-47384d11d1a4" />
+<img width="319" height="137" alt="image" src="https://github.com/user-attachments/assets/b88439d0-8057-4e66-b1dc-340de0bdabb6" />
 
 
 Gambar di atas menunjukkan penggunaan access modifier `private` pada atribut class `HasilPemeriksaan`, yaitu `idHasil`, `idPasien`, `hasil`, dan `status`.
