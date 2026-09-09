@@ -167,3 +167,65 @@ Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. 
 
 Ketika pengguna ingin keluar dari sistem.
 
+## 7. Penerapan Nilai Tambah
+
+### 1. Access Modifier
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b4e60b7-87a3-4f72-85e9-47384d11d1a4" />
+
+
+Gambar di atas menunjukkan penggunaan access modifier `private` pada atribut class `HasilPemeriksaan`, yaitu `idHasil`, `idPasien`, `hasil`, dan `status`.
+
+Atribut tersebut dibuat `private` agar tidak dapat diakses secara langsung dari luar class. Untuk mengakses atau mengubah data, program menggunakan method `public`, seperti getter dan setter.
+
+Contoh kode yang terlihat pada gambar:
+
+```java
+private String idHasil;
+private String idPasien;
+private String hasil;
+private String status;
+
+### 2. Encapsulation
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f693fc2d-51fa-4eca-89e4-98f1e28c04ee" />
+
+Gambar di atas menunjukkan penerapan encapsulation pada class `HasilPemeriksaan`. Atribut data tidak diakses secara langsung, tetapi melalui getter dan setter.
+
+Getter digunakan untuk mengambil data, contohnya:
+
+```java
+public String getHasil() {
+    return hasil;
+}
+
+### 3. Validasi Input
+
+```java
+if (!sc.hasNextInt()) {
+    System.out.println("Pilihan menu harus berupa angka.");
+    sc.nextLine();
+    continue;
+}
+```
+
+Kode tersebut digunakan untuk memastikan pilihan menu berupa angka. Jika pengguna memasukkan huruf, program menampilkan pesan kesalahan dan kembali menampilkan menu.
+
+```java
+if (biaya < 0) {
+    System.out.println("Biaya tidak boleh negatif.");
+    return;
+}
+```
+
+Kode tersebut digunakan untuk menolak biaya pemeriksaan yang bernilai negatif.
+
+```java
+if (nama.trim().isEmpty()) {
+    System.out.println("Nama pemeriksaan tidak boleh kosong.");
+    return;
+}
+```
+
+Kode tersebut digunakan untuk memastikan nama pemeriksaan tidak kosong atau hanya berisi spasi.
