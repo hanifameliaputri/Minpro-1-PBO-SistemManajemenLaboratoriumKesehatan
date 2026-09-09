@@ -77,12 +77,43 @@ public class LaboratoriumService {
         return pemeriksaanBaru;
     }
     public void tampilkanSemuaPemeriksaan() {
+        if (daftarPemeriksaan.isEmpty()) {
+            System.out.println("Belum ada data pemeriksaan.");
+            return;
+        }
         for (Pemeriksaan p : daftarPemeriksaan) {
             System.out.println("ID Pemeriksaan : " + p.getIdPemeriksaan());
             System.out.println("Nama Pemeriksaan : " + p.getNamaPemeriksaan());
             System.out.println("Biaya : " + p.getBiaya());
             System.out.println("------------------------------------");
         }
+    }
+    public Pemeriksaan cariPemeriksaanById(String id) {
+    for (Pemeriksaan pemeriksaan : daftarPemeriksaan) {
+        if (pemeriksaan.getIdPemeriksaan().equalsIgnoreCase(id)) {
+            return pemeriksaan;
+        }
+    }
+    return null;
+    }
+    public boolean ubahPemeriksaan(String id, String namaBaru, double biayaBaru) {
+        Pemeriksaan pemeriksaan = cariPemeriksaanById(id);
+        if (pemeriksaan == null) {
+            return false;
+        }
+        pemeriksaan.setNamaPemeriksaan(namaBaru);
+        pemeriksaan.setBiaya(biayaBaru);
+        return true;
+    }
+    public boolean hapusPemeriksaan(String id) {
+        Pemeriksaan pemeriksaan = cariPemeriksaanById(id);
+
+        if (pemeriksaan == null) {
+            return false;
+        }
+
+        daftarPemeriksaan.remove(pemeriksaan);
+        return true;
     }
     public HasilPemeriksaan tambahHasil(String idPasien, String hasil, String status) {
         String id = "H" + nextIdHasil;
