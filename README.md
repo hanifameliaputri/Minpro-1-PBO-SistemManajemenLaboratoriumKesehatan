@@ -214,6 +214,8 @@ if (!sc.hasNextInt()) {
     continue;
 }
 ```
+<img width="534" height="111" alt="image" src="https://github.com/user-attachments/assets/3e378ac7-c81f-4901-99c0-45382e3f5dc6" />
+
 
 Kode tersebut digunakan untuk memastikan pilihan menu berupa angka. Jika pengguna memasukkan huruf, program menampilkan pesan kesalahan dan kembali menampilkan menu.
 
@@ -223,6 +225,8 @@ if (biaya < 0) {
     return;
 }
 ```
+<img width="457" height="77" alt="image" src="https://github.com/user-attachments/assets/4554fa48-1dca-47aa-8c6d-e2d9f2e8911b" />
+
 
 Kode tersebut digunakan untuk menolak biaya pemeriksaan yang bernilai negatif.
 
@@ -232,5 +236,7 @@ if (nama.trim().isEmpty()) {
     return;
 }
 ```
+<img width="547" height="76" alt="image" src="https://github.com/user-attachments/assets/13d6c176-4555-48cc-9efd-d6538af6d296" />
+
 
 Kode tersebut digunakan untuk memastikan nama pemeriksaan tidak kosong atau hanya berisi spasi.
