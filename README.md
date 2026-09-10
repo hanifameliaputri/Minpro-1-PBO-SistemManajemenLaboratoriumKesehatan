@@ -115,47 +115,53 @@ Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. 
 
 ### 2. Tambah Pemeriksaan
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/94333044-0e40-4648-afcb-f42faefbcf97" />
+
+<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/a5b7bf0c-bbb0-4f2b-a91d-e8216ddb603f" />
+
 
 
 Pada menu ini, pengguna memasukkan nama dan biaya pemeriksaan. Setelah data berhasil disimpan, program membuat ID pemeriksaan secara otomatis, seperti PM1.
 
 ### 3. Lihat Pemeriksaan
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/a5b7bf0c-bbb0-4f2b-a91d-e8216ddb603f" />
+<img width="812" height="510" alt="image" src="https://github.com/user-attachments/assets/277aba30-dd31-41df-9d77-d97c478b17ab" />
 
 
 Menu ini menampilkan semua data pemeriksaan yang tersimpan di dalam ArrayList.
 
 ### 4. Cari Pemeriksaan
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/21075863-03fd-49e7-b1ca-a824e754993b" />
+<img width="773" height="595" alt="image" src="https://github.com/user-attachments/assets/70ab3eb6-ac1f-4b64-a744-bc7dbfc2bded" />
+
 
 
 Pengguna memasukkan ID pemeriksaan untuk mencari data tertentu.
 
 ### 5. Ubah Pemeriksaan
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/20a7ba82-03da-4bb5-abf8-298165eaf90f" />
+<img width="741" height="575" alt="image" src="https://github.com/user-attachments/assets/25da5d1f-7352-4bb9-aded-865e77c62fe7" />
 
 
 Menu ini digunakan untuk mengubah nama dan biaya pemeriksaan berdasarkan ID.
 
 Setelah data diubah kita bisa lihat perubahannya dengan pilih menu 2.
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/b1409d6a-1dea-4d3a-914c-0343482a84f5" />
+<img width="727" height="450" alt="image" src="https://github.com/user-attachments/assets/71fb4875-95be-40ba-a215-7353fcf95ec6" />
+
 
 
 ### 6. Hapus Pemeriksaan
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/48574045-1aef-42d9-b9db-0d3a1806ed58" />
+<img width="722" height="531" alt="image" src="https://github.com/user-attachments/assets/784d126f-7454-40b4-86ac-f6ffdb12a847" />
+
 
 
 Menu ini digunakan untuk menghapus data pemeriksaan berdasarkan ID.
 
 Jika kita mau melihat apakah data sudah berhasil di hapus bisa dilihat kembali pada menu 2.
 
-<img width="742" height="587" alt="WhatsApp Image 2026-09-10 at 02 04 55" src="https://github.com/user-attachments/assets/5a735e1b-cb6b-4337-b05e-cf9c2b551d2e" />
+<img width="766" height="402" alt="image" src="https://github.com/user-attachments/assets/4f582afa-f62a-4423-b43d-a947f2f2987b" />
+
 
 
 Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. Pengguna dapat memilih menu tambah, lihat, cari, ubah, hapus, atau keluar dengan memasukkan nomor pilihan.
@@ -163,7 +169,10 @@ Gambar tersebut menunjukkan menu utama Sistem Manajemen Laboratorium Kesehatan. 
 
 ### 7. Menu Keluar
 
-<img width="724" height="400" alt="image" src="https://github.com/user-attachments/assets/bf978492-d8f5-4d7a-9184-006507f11671" />
+
+<img width="724" height="400" alt="image" src="https://github.com/user-attachments/assets/d76d4449-092f-49ca-ad78-566c3cfde991" />
+
+
 
 
 Ketika pengguna ingin keluar dari sistem.
@@ -195,12 +204,6 @@ private String status;
 
 Gambar di atas menunjukkan penerapan encapsulation pada class `HasilPemeriksaan`. Atribut data tidak diakses secara langsung, tetapi melalui getter dan setter.
 
-Getter digunakan untuk mengambil data, contohnya:
-
-```java
-public String getHasil() {
-    return hasil;
-}
 
 ### 3. Validasi Input
 
