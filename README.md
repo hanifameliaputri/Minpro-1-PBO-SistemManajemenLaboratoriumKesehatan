@@ -100,9 +100,7 @@ Digunakan untuk menghapus data pemeriksaan berdasarkan ID.
 
 Digunakan untuk menghentikan program.
 
-## 6. Demo Program
 
-### 1. Menu Utama
 
 ## 6. Demo Program
 
